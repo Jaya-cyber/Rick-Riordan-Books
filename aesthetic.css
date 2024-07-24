@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+img,
+iframe {
+max-width: 100%;
+height: auto;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: 0;
+/* this stops a border if the image is inside a link */
+}
+
+/* make sure you put the colour in properly dipshit*/
+body .jersey-10-charted-regular {
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+      background-color: whitesmoke;
+     }
+
+header {
+       background-color: indianred;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. 
+e.g. header, footer */
+/* also note, to elaborate on my previous comment, DON'T FUCK UP*/
+
+/* TYPOGRAPHY*/
+h1 {
+    font-size:38px;
+    color: black; 
+    text-transform: uppercase;
+   } 
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+   }
+h1,h2,p,li {
+    padding-bottom: 1em;
+    color: #F8F5F5;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+           }
+
+
+header {
+       text-align: right;
+       }
+
+.item {
+       background-color: rosybrown;
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+}
+
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+     max-width: 1000px;
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+.item li {
+          margin-left: 25px;
+}
+
+nav {
+text-align: right;
+}
+nav li {
+display: inline-block;
+}
+
+nav a {
+background: white; 
+color: black;
+padding: 5px; 
+border-radius: 5px;
+}
+nav a:hover {
+background: blue;
+}
